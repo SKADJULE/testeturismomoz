@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tour & Travel</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="css/element.css" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/codebase/dhtmlxcalendar.css"/>
+	<script src="js/codebase/dhtmlxcalendar.js"></script>
+	<script>
+		var myCalendar;
+		function doOnLoad() {
+			myCalendar = new dhtmlXCalendarObject(["cal_1","cal_2", "cal_3", "cal_4", "cal_5", "cal_6", "cal_7", "cal_8"]);
+		}
+	</script>
+
+
+  </head>
+<body  onload="doOnLoad();">
+<section id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <a class="navbar-brand heading_tag" href="index.html"><img src="img/1200/LOGO.jpg" width="184" height="46" alt="logotipo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown dropdown-large">
+				<a href="#" class="dropdown-toggle tag_menu" data-toggle="dropdown">Home <span class="badge indent0">7</span> <b class="caret"></b></a>
+				
+				<ul class="dropdown-menu dropdown-menu-large row drop_menu_1">
+					<li class="col-sm-4 border_right_1">
+						<ul>
+								<li class="dropdown-header">Pacotes de Voos</li>
+							<li><a href="new_homepage.html">Domesticos </a></li>
+							<li><a href="full_search.html">Pacote Completo</a></li>
+							<li><a href="presentation.html">Regionais</a></li>
+							<li><a href="footer_2.html">Internacionais</a></li>
+							<li><a href="full_page.html">Executivos</a></li>
+							<li><a href="homepage_2.html">Corporativos</a></li>
+							<li><a href="new_homepage.html">Multiplos</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-4 border_right_1">
+						<ul>
+							<li class="dropdown-header">Dicas</li>
+							<li><a href="#">Passaporte</a></li>
+							<li><a href="#">Cargas</a></li>
+							<li><a href="#">Seguro de Viagem</a></li>
+							<li><a href="#">Actividades</a></li>
+							<li class="dropdown-header">Comercio</li>
+						</ul>
+					</li>
+					
+				</ul>
+				
+			        </li>
+                     
+                    <li class="dropdown dropdown-large">
+				<a href="#" class="dropdown-toggle tag_menu" data-toggle="dropdown">Pacotes de Ferias<span class="badge indent0">8</span><b class="caret"></b></a>
+				
+				<ul class="dropdown-menu dropdown-menu-large row drop_menu_1">
+					<li class="col-sm-4 border_right_1">
+						<ul>
+							<li class="dropdown-header">Viagens de Ferias</li>
+							<li><a href="list.html">Familiar</a></li>
+							<li><a href="detail.html">Romantico</a></li>
+							<li><a href="blog.html">Turismo</a></li>
+							<li><a href="blog_detail.html">Praias</a></li>
+							<li><a href="about.html">Sobre nos</a></li>
+							<li><a href="payment.html">Modo de Pagamento</a></li>
+							<li><a href="contact.html">Contacte nos</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-4 border_right_1">
+						<ul>
+							<li class="dropdown-header">Tendencias</li>
+							<li><a href="list.html"> Mais solicitadas </a></li>
+							<li><a href="new_homepage.html"> Destinos de Turismo </a></li>
+							<li><a href="detail.html"> Tipos de Turismo</a></li>
+							<li><a href="full_search.html">Agentes de Turismo</a></li>
+			
+							<li><a href="#">Pacotes Actuais</a></li>
+							<li><a href="presentation.html">Diving</a></li>
+							<li><a href="list.html">Passeios</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-4 border_right_1">
+						<ul>
+							<li class="dropdown-header">Servicos</li>
+							<li><a href="#">Noticias</a></li>
+							<li><a href="#">Saude</a></li>
+							<li><a href="#">Produtos</a></li>
+							<li class="dropdown-header">Negocios</li>
+	
+							<li><a href="#">Outras Ofertas</a></li>
+							<li><a href="#">Detalhes</a></li>
+							<li class="dropdown-header">Mais</li>
+						</ul>
+					</li>
+					
+				</ul>
+				
+			        </li>
+					
+					<li>
+                        <a class="tag_menu" href="list.html">Cruzeiros</a>                    </li>
+                    
+					<li>
+                        <a class="tag_menu" href="blog.html">Blog</a>                    </li>
+					
+					<li>
+                        <a class="tag_menu" href="list.html">Ofertas</a>                    </li>
+					
+					<li>
+                        <a class="tag_menu" href="detail.html">Resortes</a>                    </li>
+						
+					<li>
+                        <a class="tag_menu" href="payment.html">Pagamentos</a>                    </li>
+						
+					<li>
+                        <a class="tag_menu" href="contact.html">Contacte nos</a>                    </li>
+					
+					<li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Rates<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li class="dropdown-header"> Special Rates </li>
+						<li><a href="#">Bonus de Viagens</a></li>
+
+					  </ul>
+                    </li>
+					
+                </ul>
+				 
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</section>
+
+<section id="list">
+ <div class="container">
+  <div class="row">
+   <div class="list clearfix">
+     <ul>
+	   <li><a href="#"><i class="fa fa-home"></i></a> /</li>
+	   <li><a href="#">Rooms</a> /</li>
+	   <li><a href="#">America</a> /</li>
+	   <li><a href="#">London</a></li>
+	 </ul>
+   </div>
+   <div class="list_1 clearfix">
+     <div class="col-sm-3 space_all">
+	  <div class="list_1_left clearfix">
+	   <div class="list_1_left_inner text-center clearfix">
+	     <p><span>23</span> Quartos disponveis em</p>
+         <h2>$56</h2>
+         <p>veja os resultados</p>
+	   </div>
+	   <div class="list_1_left_inner_1 clearfix">
+					  <div class="tab_inner clearfix">
+					    <div class="menu_1_inner col-sm-12 clearfix">
+						    <p>Escolha seu melhor destino </p>
+						   <input class="form-control" placeholder="Italy" type="text">
+						</div>
+					    <div class="clearfix">
+						  <div class="col-sm-6 ">            
+						 <div class="tab_inner_1 clearfix"> 
+						  
+						  <div class="tab_inner_1_inner clearfix">
+						    <p>Entrada</p>
+						   <input class="form-control" id="cal_3" placeholder="mm/dd/yyyy" type="text">
+						  </div>
+						  <div class="tab_inner_1_inner clearfix">
+						    <p>HOTEL 2</p>
+						   <h6><a href="#">+ Agende quarto</a></h6>
+						  </div>
+						 </div>
+						</div>
+						  <div class="col-sm-6 ">            
+						 <div class="tab_inner_1 clearfix"> 
+						  <div class="tab_inner_1_inner clearfix">
+						    <p>Saida</p>
+						   <input class="form-control" id="cal_4" placeholder="mm/dd/yyyy" type="text">
+						  </div>
+						  <div class="tab_inner_1_inner clearfix">
+						    <div class="tab_inner_1_inner_1_inner clearfix">
+							  <div class="col-sm-6 space_left">
+							    <p>Adultos</p>
+						        <select class="form_1 form-control">
+									<option value="1"> 2 </option>
+									<option value="2"> 1 </option>
+									<option value="3"> 2 </option>
+									<option value="4"> 3 </option>
+									<option value="5"> 4 </option>
+									<option value="6"> 5 </option>
+				          </select>   
+							  </div>
+							  <div class="col-sm-6 space_left">
+							    <p>Criancas</p>
+						        <select class="form_1 form-control">
+									<option value="1"> 2 </option>
+									<option value="2"> 1 </option>
+									<option value="3"> 2 </option>
+									<option value="4"> 3 </option>
+									<option value="5"> 4 </option>
+									<option value="6"> 5 </option>
+				          </select>   
+							  </div>
+							</div>
+						    
+						  </div>
+						 </div>
+						</div>
+						</div>
+					  </div>
+					  <div class="tab_inner_last clearfix">
+					    <h4><a href="#">ENVIAR</a></h4>
+					  </div>
+	   </div>
+	   <div class="list_1_left_inner_2 clearfix">
+	    <h3>Faca sua Votacao</h3>
+		<a href="#"><h5>marque as estrelas</h5></a>
+		<h6>
+		 <input type="checkbox" class="check_1">
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <span>5 Stars</span>
+		</h6>
+		<h6>
+		 <input type="checkbox" class="check_1">
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star-o"></i>
+		 <span>4 Stars</span>
+		</h6>
+		<h6>
+		 <input type="checkbox" class="check_1">
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star-o"></i>
+		 <i class="fa fa-star-o"></i>
+		 <span>3 Stars</span>
+		</h6>
+		<h6>
+		 <input type="checkbox" class="check_1">
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star-o"></i>
+		 <i class="fa fa-star-o"></i>
+		 <i class="fa fa-star-o"></i>
+		 <span>2 Stars</span>
+		</h6>
+		<h6>
+		 <input type="checkbox" class="check_1">
+		 <i class="fa fa-star"></i>
+		 <i class="fa fa-star-o"></i>
+		 <i class="fa fa-star-o"></i>
+		 <i class="fa fa-star-o"></i>
+		 <i class="fa fa-star-o"></i>
+		 <span>1 Star</span>
+		</h6>
+		
+		<div class="list_1_left_inner_2_inner clearfix">
+		  <a href="#"><h5>Valor</h5></a>
+		  <p>99$ to 1100$</p>
+		  <a href="#"><h5>Todo tipo</h5></a>
+		</div>
+		
+		<div class="list_1_left_inner_2_inner_1 clearfix">
+	       <p><input type="radio"> <span>Todos</span></p>
+		   <p><input type="radio"> <span>Quartos</span></p>
+		   <p><input type="radio"> <span>Durmir e almocar</span></p>
+		   <p><input type="radio"> <span>Flat</span></p>
+		   <p><input type="radio"> <span>Cruzeiro </span></p>
+		   <p><input type="radio"> <span>Hoteis Exclusivos</span></p>
+		   
+		</div>
+		
+		<a href="#"><h5>Melhores Lodges</h5></a>
+		<div class="list_1_left_inner_2_inner_1 clearfix">
+	       <p><input type="radio"> <span>Wi-Fi Internet (31)</span></p>
+		   <p><input type="radio"> <span>A/C  (22)</span></p>
+		   <p><input type="radio"> <span>Piscina(35)</span></p>
+		   <p><input type="radio"> <span>Para criancas (19)</span></p>
+		   <p><input type="radio"> <span>Ginasio (29)</span></p>
+		   <p><input type="radio"> <span>Matabicho (17)</span></p>
+		   <p><input type="radio"> <span>Parqueamento (16)</span></p>
+		   <p><input type="radio"> <span>Salao de Beleza (38)</span></p>
+		   <p><input type="radio"> <span>Cuidados animais (26)</span></p>
+		   <p><input type="radio"> <span>Buffet (57)</span></p>
+		   <p><input type="radio"> <span>Qualidade do Hotel(68)</span></p>
+		   <p><input type="radio"> <span>Massagem e spa (47)</span></p>
+		   
+		</div>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="col-sm-9">
+	  <div class="list_1_right clearfix">
+	   <div class="list_1_right_1 clearfix">
+	    <div class="col-sm-4">
+		 <div class="list_1_right_1_left clearfix">
+		  <div class="col-sm-3 space_all">
+		   <p>Pesquisar :</p>
+		  </div>
+		  <div class="col-sm-9 right">
+		    <select class="form_1 form-control">
+									<option value="Country">Tipos de Estadia </option>
+									<option value="India"> 5 stars </option>
+									<option value="United states"> 4 stars </option>
+									<option value="Afghanisthan">3 stars </option>
+									<option value="China"> 2 stars</option>
+									<option value="Indonesia">1 stars </option>
+				          </select>
+		  </div>
+		 </div>
+		</div>
+		<div class="col-sm-4">
+		 <div class="list_1_right_1_left clearfix">
+		  <div class="col-sm-6 space_left">
+		   <select class="form_1 form-control">
+									<option value="Country">A a Z </option>
+									<option value="India"> A a Z </option>
+									<option value="United states">  Z a A </option>
+		   </select>
+		  </div>
+		  <div class="col-sm-6 space_left">
+		    <select class="form_1 form-control">
+									<option value="Country">Preco </option>
+									<option value="India"> Alto </option>
+									<option value="United states"> Baixo </option>
+		   </select>
+		  </div>
+		 </div>
+		</div>
+		<div class="col-sm-4">
+		 <div class="list_1_right_1_right clearfix">
+		    <div class="col-sm-6 space_all">
+			 <p><a href="#">Mais procurados</a></p>
+			</div>
+			<div class="col-sm-6 space_all">
+			  <h6>
+			  <a href="#"><i class="fa fa-windows"></i></a>
+			  <a href="#"><i class="fa fa-list "></i></a>
+			  <a href="#"><i class="fa fa-windows"></i></a>
+			  </h6>
+			</div>
+		 </div>
+		</div>
+	   </div>
+	   <div class="list_1_right_2 clearfix">
+	    <div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/30.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Antarra</h6>
+			 <p><span>$415.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/31.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Quilalias</h6>
+			 <p><span>$427.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/32.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Praia da Barra</h6>
+			 <p><span>$349.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+
+	   </div>
+	   <div class="list_1_right_2 clearfix">
+	    <div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/33.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Santorini</h6>
+			 <p><span>$5500</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/34.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Praia dos Portuguses</h6>
+			 <p><span>$526.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/35.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Inhassouro</h6>
+			 <p><span>$558.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+
+	   </div>
+	   <div class="list_1_right_2 clearfix">
+	    <div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/36.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Tofinho</h6>
+			<p><span>$742.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/37.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Medjumbe</h6>
+			 <p><span>$733.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/38.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Macaneta</h6>
+			 <p><span>$183.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+
+	   </div>
+       <div class="list_1_right_2 clearfix">
+	    <div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/39.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Inhaca</h6>
+			 <p><span>$321.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/40.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Xefinas</h6>
+			 <p><span>$329.00</span> p0r/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+		<div class="col-sm-4 space_left">
+		 <div class="list_1_right_2_inner clearfix">
+		   <div class="grid clearfix">
+					
+					<figure class="effect-ming">
+						<img src="img/41.jpg" alt="img08"/>
+						<figcaption>
+							<h2>JB Tour <span>Travel</span></h2>
+							<p> Lorem ipsum dolor sit amet adipiscing elit Integer nec odio.</p>
+							<a href="detail.html">Mais</a>						</figcaption>			
+		  </figure>
+	  </div>
+	       <div class="list_1_right_2_inner_1 clearfix">
+		    <div class="col-sm-8">
+			 <h6>Santa Maria</h6>
+			<p><span>$441.00</span> por/dia</p>
+			</div>
+			<div class="col-sm-4">
+			  <h5><a href="detail.html">Agende</a></h5>
+			</div>
+		   </div>
+		 </div>
+		</div>
+
+	   </div>
+	   <div class="list_1_right_last clearfix text-right">
+	     <ul class="pagination">
+              <li class="disabled"><a href="detail.html">«</a></li>
+              <li class="active"><a href="detail.html">1 <span class="sr-only">(current)</span></a></li>
+              <li><a href="detail.html">2</a></li>
+              <li><a href="detail.html">3</a></li>
+              <li><a href="detail.html">4</a></li>
+              <li><a href="detail.html">5</a></li>
+              <li><a href="detail.html">»</a></li>
+            </ul>
+	   </div>
+	  </div>
+	 </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer_page_2">
+ <div class="container">
+  <div class="row">
+    <div class="footer_page_2 clearfix">
+	   <div class="col-sm-3">
+	    <div class="footer_page_2_inner">
+		 <h4>Redes Sociais</h4>
+		 <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+		 <h5><a  href="index.html"><i class= hidden=""></i></a><a class="navbar-brand heading_tag" href="index.html"><img src="img/1200/LOGO.jpg" width="163" height="44" alt="logotipo"></a></h5>
+		 <p>&nbsp;</p>
+		 <p>© 2023 JB Travel Tours. All Rights Reserved | Design by Alka</a></p>
+		</div>
+	   </div>
+	   <div class="col-sm-3">
+	    <div class="footer_page_2_inner_1">
+		   <h4>Outros Destinos </h4>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Ferias Desportivas</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Ski Jumping</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Viagens de Criancas</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Parques Naturais</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Ferias Romanticas</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Promocoes</a></p>
+		</div>
+	   </div>
+	   <div class="col-sm-3">
+	    <div class="footer_page_2_inner_1">
+		   <h4>Mais Procurados </h4>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Negocios</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Turismo</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Lua de Mel</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Diving/Praias</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Digressao</a></p>
+		   <p><i class="fa fa-chevron-circle-right"></i><a href="#">Classe Executiva</a></p>
+		</div>
+	   </div>
+	   <div class="col-sm-3">
+	    <div class="footer_page_2_inner_2 clearfix">
+		   <h4>Newsletter</h4>
+		   <div class="input-group clearfix">
+				<input type="text" class="form-control" placeholder="Seu email">
+				<span class="input-group-btn">
+					<button class="btn btn-primary" type="button">
+						<i class="fa fa-arrow-right"></i></button>
+				</span>
+		 </div>
+		   <h4>Suporte ao Cliente</h4>
+		   <h1>84 123 4567</h1>
+		   <p>jbtraveltours@gmail.com</p>
+		</div>
+	   </div>
+	</div>
+  </div>
+ </div>
+</section>
+
+<section id="footer_page_2_bottom">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+     <div class="footer_page_2_bottom text-center clearfix">
+	        <ul>
+			 <li><a href="#">Home</a></li>
+			 <li><a href="#">Sobre Nos</a></li>
+			 <li><a href="#">Ultima hora</a></li>
+			 <li><a href="#">Agende Antes</a></li>
+			 <li><a href="#">Tendencias e Ofertas</a></li>
+			 <li><a href="#">Blog</a></li>
+			 <li class="border_none_1"><a href="#">Contacte nos</a></li>
+			</ul>
+	 </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<div id="toTop" class="btn btn-info" style="display: block; background:none; color:#999; border-color:#999;"><span class="fa fa-chevron-up"></span></div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() != 0) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	}); 
+$('#toTop').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 600);
+	return false;
+});
+});
+
+</script>
+
+
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+</body>
+       
+</html>
